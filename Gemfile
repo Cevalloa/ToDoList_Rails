@@ -32,10 +32,12 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+#specify environment we want it in
 group :development, :test do
 	gem 'rspec-rails', '~> 2.0'
 end
 
+#test group
 group :test do
 	gem 'capybara', '~> 2.1.0'
 end
