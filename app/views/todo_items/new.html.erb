@@ -2,6 +2,5 @@
 
 <%= form_for [@todo_list, @todo_item] do |form| %>
 
-	<% if @todo_item.errors.any? %>
 		<%= render partial: form %>
 <% end %>
